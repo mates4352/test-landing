@@ -519,8 +519,8 @@ img {
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   width: 100%;
-  -webkit-filter: drop-shadow(-58.48px 0 23.5067px rgba(0, 0, 0, .01)) drop-shadow(-33.2533px 0 20.0667px rgba(0, 0, 0, .03)) drop-shadow(-14.9067px 0 14.9067px rgba(0, 0, 0, .05)) drop-shadow(-3.44px 0 8.02667px rgba(0, 0, 0, .06)) drop-shadow(0 0 0 rgba(0, 0, 0, .06));
-  filter: drop-shadow(-58.48px 0 23.5067px rgba(0, 0, 0, .01)) drop-shadow(-33.2533px 0 20.0667px rgba(0, 0, 0, .03)) drop-shadow(-14.9067px 0 14.9067px rgba(0, 0, 0, .05)) drop-shadow(-3.44px 0 8.02667px rgba(0, 0, 0, .06)) drop-shadow(0 0 0 rgba(0, 0, 0, .06))
+  -webkit-filter: drop-shadow(-20px 24px 12px rgba(0, 0, 0, .01)) drop-shadow(-11px 13px 10px rgba(0, 0, 0, .03)) drop-shadow(-5px 6px 8px rgba(0, 0, 0, .05)) drop-shadow(-1px 1px 4px rgba(0, 0, 0, .06)) drop-shadow(0 0 0 rgba(0, 0, 0, .06));
+  filter: drop-shadow(-20px 24px 12px rgba(0, 0, 0, .01)) drop-shadow(-11px 13px 10px rgba(0, 0, 0, .03)) drop-shadow(-5px 6px 8px rgba(0, 0, 0, .05)) drop-shadow(-1px 1px 4px rgba(0, 0, 0, .06)) drop-shadow(0 0 0 rgba(0, 0, 0, .06))
 }
 .header__title {
   --title-1600-768-320-64-34-26: clamp(clamp(1.63rem, 1.79vw + 1.27rem, 2.13rem), 3.61vw + 0.39rem, 4rem);
@@ -938,7 +938,8 @@ img {
   color: var(--grey);
   -webkit-user-select: none;
   -ms-user-select: none;
-  user-select: none
+  user-select: none;
+  opacity: .8
 }
 .products__item:nth-of-type(1) .products__subItem:last-of-type .products__subtext {
   max-width: 220px
@@ -1570,7 +1571,8 @@ img {
     display: none
   }
   .card {
-    padding: 20px
+    padding: 24px 20px 20px;
+    box-shadow: -3px -7px 18px rgba(181,168,167,.1),21px 38px 17px rgba(181,168,167,.03),12px 21px 15px rgba(181,168,167,.11),5px 9px 11px rgba(181,168,167,.19),1px 2px 6px rgba(181,168,167,.22),0 0 0 rgba(181,168,167,.22)
   }
   .advise__item:nth-of-type(1) .card__text {
     padding-bottom: 110px
@@ -1776,12 +1778,9 @@ img {
     grid-template-columns: minmax(min-content,max-content);
     row-gap: 16px
   }
-  .diet__icon {
-    margin-left: -10px
-  }
   .diet__list {
     padding: 30px;
-    box-shadow: 2px 2px 4px rgba(0,0,0,.1)
+    box-shadow: 0 6px 16px rgba(0,0,0,.12)
   }
   .footer {
     padding-bottom: 47px
