@@ -977,6 +977,9 @@ img {
 .rules {
   margin-bottom: 125px
 }
+.rules__container {
+  max-width: 1200px
+}
 .rules__title {
   margin-bottom: 66px;
   color: var(--black)
@@ -1627,15 +1630,15 @@ img {
   }
   .products__item:nth-of-type(1) .products__column:first-of-type {
     padding: 270px 20px 35px 13px;
-    background: url(../images/products-img-1.png) no-repeat center top 20px/177px,url(../images/icons/products-bg-card-md-1.svg) no-repeat center center/270px 456px
+    background: url(../images/products-img-1.png) no-repeat center top 20px/180px 241px,url(../images/icons/products-bg-card-md-1.svg) no-repeat center center/270px 456px
   }
   .products__item:nth-of-type(2) .products__column:first-of-type {
     padding: 274px 14px 23px;
-    background: url(../images/products-img-2.png) no-repeat center top 26px/148px,url(../images/icons/products-bg-card-md-2.svg) no-repeat center center/270px 574px
+    background: url(../images/products-img-2.png) no-repeat center top 20px/152px,url(../images/icons/products-bg-card-md-2.svg) no-repeat center center/270px 574px
   }
   .products__item:nth-of-type(3) .products__column:first-of-type {
     padding: 276px 14px 23px;
-    background: url(../images/products-img-3.png) no-repeat center top 10px/187px,url(../images/icons/products-bg-card-md-3.svg) no-repeat center center/270px 480px
+    background: url(../images/products-img-3.png) no-repeat center top 20px/180px,url(../images/icons/products-bg-card-md-3.svg) no-repeat center center/270px 480px
   }
   .products__column:last-of-type {
     padding: 16px;
